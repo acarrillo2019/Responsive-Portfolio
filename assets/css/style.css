@@ -227,3 +227,31 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 980px) {
+    .maincontainer {
+      margin-left: 40px;
+      margin-right: 40px;
+      margin-top: 40px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .maincontainer {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 40px;
+      }
+  }
+  @media only screen and (max-width: 640px) {
+    header {
+      position: static;
+    }
+    .maincontainer {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 40px;
+      }
+    nav {
+        text-align: center;
+    }
+  }
